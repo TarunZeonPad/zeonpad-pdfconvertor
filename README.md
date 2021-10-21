@@ -23,3 +23,6 @@ Microsoft Windows Server 2012 and 2012 R2
 
 **SUPPORTED JAVA VERSION**
 JDK 1.8 and higher
+
+**JAVA SETUP**
+zeonpad-pdfconvertor library is currently based on the Java COM bridge called JACOB, a bridge is required between COM and the Java Virtual Machine. This allows the Java application to utilize MS Office APIS. JACOB is a free Java COM bridge that is actively developed and maintained by its open-source community. It supports both the Win32 and x64 releases of the JRE/JDK version 1.8 or newer.
