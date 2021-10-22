@@ -40,3 +40,13 @@ Kindly copy the below given files from <b style="color:red;">jacob</b> folder.<b
 Add a <b style='color:green;'>JAVA_HOME</b> environment variable. Add  jacob.jar into your classpath.<br />
 If you are using 64 bit machine then Copy the jacob-1.18-x64.dll file to java_Home/bin (Example : C:\Program Files\Java\jdk1.8.0_181\jre\bin).<br />
 If you are using 32 bit machine then copy Copy the jacob-1.18-x86.dll file to java_Home/bin (Example : C:\Program Files\Java\jdk1.8.0_181\jre\bin).
+
+
+**Code Example :**<br/>
+
+<p style="color:red;">GenericConvertor</p>
+This object is used to convert Word, Excel, PowerPoint, Publisher, Visio, Outlook, AutoCad, Images, Text, Html to PDF.<br/>
+**Create an Object**<br/>
+<span style='color:red;'>GenericConvertor genericConv =new GenericConvertor();</span><br/>
+**Covert to Pdf**<br/>
+genericConv.convert("C:\\Users\\Desktop\\input.doc","C:\\Users\\Desktop\\output.pdf");<br/>
