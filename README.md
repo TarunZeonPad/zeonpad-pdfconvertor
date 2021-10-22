@@ -44,9 +44,17 @@ If you are using 32 bit machine then copy Copy the jacob-1.18-x86.dll file to ja
 
 **Code Example :**<br/>
 
-<p style="color:red;">GenericConvertor</p>
+ **GenericConvertor**<br/> 
 This object is used to convert Word, Excel, PowerPoint, Publisher, Visio, Outlook, AutoCad, Images, Text, Html to PDF.<br/>
-**Create an Object**<br/>
-<span style='color:red;'>GenericConvertor genericConv =new GenericConvertor();</span><br/>
-**Covert to Pdf**<br/>
-genericConv.convert("C:\\Users\\Desktop\\input.doc","C:\\Users\\Desktop\\output.pdf");<br/>
+GenericConvertor genericConv =new GenericConvertor();<br/>
+genericConv.convert("C:\\Users\\Desktop\\input.doc","C:\\Users\\Desktop\\output.pdf");<br/><br/>
+
+**WordToPdf**<br/>
+This object is used to convert ms-word document to pdf. This object contains many ms-word related features. WordToPdf only works with Word 2007 or higher version. Only Word 2007 requires the free "Save as PDF or XPS" add-in for Office 2007 to be installed. This add-in is available from Microsoft.<br/><br/>
+
+WordToPdf wordToPdf = new WordToPdf();<br/>
+wordToPdf.convert("C:\\Users\\Desktop\\input.docx","C:\\Users\\Desktop\\output.pdf");<br/><br/>
+
+
+
+
