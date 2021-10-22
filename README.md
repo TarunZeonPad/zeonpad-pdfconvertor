@@ -50,11 +50,49 @@ GenericConvertor genericConv =new GenericConvertor();<br/>
 genericConv.convert("C:\\Users\\Desktop\\input.doc","C:\\Users\\Desktop\\output.pdf");<br/><br/>
 
 **WordToPdf**<br/>
-This object is used to convert ms-word document to pdf. This object contains many ms-word related features. WordToPdf only works with Word 2007 or higher version. Only Word 2007 requires the free "Save as PDF or XPS" add-in for Office 2007 to be installed. This add-in is available from Microsoft.<br/><br/>
-
+This object is used to convert ms-word document to pdf. This object contains many ms-word related features. WordToPdf only works with Word 2007 or higher version. Only Word 2007 requires the free "Save as PDF or XPS" add-in for Office 2007 to be installed. This add-in is available from Microsoft.<br/>
 WordToPdf wordToPdf = new WordToPdf();<br/>
 wordToPdf.convert("C:\\Users\\Desktop\\input.docx","C:\\Users\\Desktop\\output.pdf");<br/><br/>
 
+**ExcelToPdf**<br/>
+This object is used to convert Microsoft Excel to pdf. This object contains many Microsoft Excel related features. ExcelToPdf only works with Microsoft Excel 2007 or higher version. Only Excel 2007 requires the free "Save as PDF or XPS" add-in for Office 2007 to be installed. This add-in is available from Microsoft.<br/>
+// Create an Object<br/>
+ExcelToPdf excelToPdf = new ExcelToPdf();<br/>
+// Convert to Pdf<br/>
+excelToPdf.convert("C:\\Users\\Desktop\\input. xls","C:\\Users\\Desktop\\output.pdf");<br/><br/>
 
+**PptToPdf**<br/>
+This object is used to convert Microsoft PowerPoint to pdf. PptToPdf only works with Microsoft PowerPoint 2007 or higher version. Only PowerPoint 2007 requires the free "Save as PDF or XPS" add-in for Office 2007 to be installed. This add-in is available from Microsoft.<br/>
+// Create an Object<br/>
+PptToPdf pptToPdf = new PptToPdf();<br/>
+// Convert to Pdf<br/>
+pptToPdf.convert("C:\\Users\\Desktop\\input.pptx","C:\\Users\\Desktop\\output.pdf");<br/>
 
+**PublisherToPdf**<br/>
+This object is used to convert Microsoft Publisher to pdf. PublisherToPdf only works with Microsoft Publisher 2007 or higher version. Only Publisher 2007 requires the free "Save as PDF or XPS" add-in for Office 2007 to be installed. This add-in is available from Microsoft.<br/>
+// Create an Object<br/>
+PublisherToPdf publisherToPdf = new PublisherToPdf();<br/>
+// Convert to Pdf<br/>
+publisherToPdf.convert("C:\\Users\\Desktop\\input.pub", " C:\\Users\\Desktop\\output.pdf");<br/>
+
+**OutlookToPdf**<br/>
+This object is used to convert Microsoft Outlook to pdf.<br/>
+// Create an Object<br/>
+OutlookToPdf outlookToPdf = new OutlookToPdf();<br/>
+// Convert to Pdf<br/>
+outlookToPdf.convert("C:\\Users\\Desktop\\input.msg", "C:\\Users\\Desktop\\output.pdf");<br/>
+
+**VisioToPdf**<br/>
+This object is used to convert Microsoft Visio to pdf. VisioToPdf only works with Microsoft Visio 2007 or higher version. Only Visio 2007 requires the free "Save as PDF or XPS" add-in for Office 2007 to be installed. This add-in is available from Microsoft.<br/>
+// Create an Object<br/>
+VisioToPdf visioToPdf = new VisioToPdf();<br/>
+// Covert to Pdf<br/>
+visioToPdf.convert("C:\\Users\\Desktop\\input.vsd", "C:\\Users\\Desktop\\output.pdf");<br/>
+
+**ImageToPDF**<br/>
+This object is used to convert images into PDF.<br/>
+// Create an Object<br/>
+ImageToPDF imageToPdf = new ImageToPDF();<br/>
+// Covert to Pdf<br/>
+imageToPdf.convert("C:\\Users\\Desktop\\input.jpg", "C:\\Users\\Desktop\\output.pdf");<br/>
 
