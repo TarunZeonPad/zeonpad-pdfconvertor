@@ -31,4 +31,14 @@ zeonpad-pdfconvertor is library for converting word,excel,ppt,publisher,visio,ou
  </ul>
 
 **JAVA SETUP**<br />
-zeonpad-pdfconvertor library is currently based on the Java COM bridge called JACOB, a bridge is required between COM and the Java Virtual Machine. This allows the Java application to utilize MS Office APIS. JACOB is a free Java COM bridge that is actively developed and maintained by its open-source community. It supports both the Win32 and x64 releases of the JRE/JDK version 1.8 or newer.
+Kindly copy the below given files from **jacob** folder.
+
+jacob-1.18-x86.dll (JACOB native 32-bit binary)
+jacob-1.18-x64.dll (JACOB native 64-bit binary)
+jacob.jar (JACOB Java library)
+
+Add a <b style='color:green;'>JAVA_HOME</b> environment variable.
+Add  jacob.jar into your classpath.
+If you are using 64 bit machine then Copy the jacob-1.18-x64.dll file to java_Home/bin (Example : C:\Program Files\Java\jdk1.8.0_181\jre\bin).
+
+If you are using 32 bit machine then copy Copy the jacob-1.18-x86.dll file to java_Home/bin (Example : C:\Program Files\Java\jdk1.8.0_181\jre\bin).
