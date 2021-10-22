@@ -31,12 +31,12 @@ zeonpad-pdfconvertor is library for converting word,excel,ppt,publisher,visio,ou
  </ul>
 
 **JAVA SETUP**<br />
-Kindly copy the below given files from **jacob** folder.
-
-jacob-1.18-x86.dll (JACOB native 32-bit binary)
-jacob-1.18-x64.dll (JACOB native 64-bit binary)
-jacob.jar (JACOB Java library)
-
+Kindly copy the below given files from <b style="color:red;">jacob</b> folder.<br />
+<ul>
+  <li>jacob-1.18-x86.dll (JACOB native 32-bit binary)</li>
+  <li>jacob-1.18-x64.dll (JACOB native 64-bit binary)</li>
+  <li>jacob.jar (JACOB Java library)</li>
+</ul>
 Add a <b style='color:green;'>JAVA_HOME</b> environment variable.
 Add  jacob.jar into your classpath.
 If you are using 64 bit machine then Copy the jacob-1.18-x64.dll file to java_Home/bin (Example : C:\Program Files\Java\jdk1.8.0_181\jre\bin).
